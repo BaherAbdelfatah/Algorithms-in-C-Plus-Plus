@@ -1,0 +1,8 @@
+﻿  binary_search.cpp
+C:\Users\Baher\source\repos\BinarySearch\BinarySearch\binary_search.cpp(9,1): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\Baher\source\repos\BinarySearch\BinarySearch\binary_search.cpp(27): message : see reference to function template instantiation 'T binary_search<int>(std::vector<int,std::allocator<int>>,T)' being compiled
+          with
+          [
+              T=int
+          ]
+  BinarySearch.vcxproj -> C:\Users\Baher\source\repos\BinarySearch\x64\Debug\BinarySearch.exe
