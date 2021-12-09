@@ -1,0 +1,7 @@
+﻿  selection_sort.cpp
+C:\Users\Baher\source\repos\selection_sort\selection_sort\selection_sort.cpp(39,58): warning C4305: 'initializing': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+  selection_sort.vcxproj -> C:\Users\Baher\source\repos\selection_sort\x64\Debug\selection_sort.exe
