@@ -3,11 +3,12 @@
 using namespace std;
 
 template<typename T>
-T binary_search(vector<T> arr, T element)
+unsigned int binary_search(const vector<T>& arr, const T& element)
 {
 	unsigned int low = 0;
 	unsigned int high = arr.size() - 1;
 	unsigned int mid;
+	
 	while (low <= high)
 	{
 		mid = (high + low) / 2;
@@ -18,6 +19,7 @@ T binary_search(vector<T> arr, T element)
 		else if (arr[mid] == element)
 			return mid;
 	}
+
 	return -1;
 }
 
@@ -26,6 +28,6 @@ int main()
 	vector<int> data = { 2, 10, 23, 44, 100, 121 };
 	cout << binary_search(data, 3)<<endl;
 	cout << binary_search(data, 2) << endl;
-	cout << binary_search(data, 121) << endl;
+	cout << binary_search(data, 44) << endl;
 	return 0;
 }
